@@ -1,0 +1,9 @@
+
+.tower {
+    font-size: 50px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    background-clip: content-box;
+    user-select: none;
+    cursor: pointer;
+}
