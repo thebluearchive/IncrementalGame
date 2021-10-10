@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Inventory } from "src/app/inventory";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'game';
+  inventory = new Inventory();
 }

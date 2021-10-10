@@ -1,7 +1,8 @@
 
 .tower {
-    font-size: 50px;
-    box-sizing: border-box;
+    display: flex;
+    font-size: 30px;
+    width: 50%;
     background-color: lightgray;
     background-clip: content-box;
     user-select: none;

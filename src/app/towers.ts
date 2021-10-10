@@ -1,20 +1,26 @@
 export const TOWERS = [
     {
-        "name": "Quarry"
+        "name": "Quarry",
+        "cost": 10,
     },
     {
-        "name": "Sawmill"
+        "name": "Sawmill",
+        "cost": 10,
     },
     {
-        "name": "Mine"
+        "name": "Mine",
+        "cost": 10,
     },
     {
-        "name": "Farm"
+        "name": "Farm",
+        "cost": 10,
     },
     {
-        "name": "Barracks"
+        "name": "Barracks",
+        "cost": 50,
     },
     {
-        "name": "Research"
+        "name": "Research",
+        "cost": 50,
     }
 ]

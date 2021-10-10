@@ -1,11 +1,5 @@
 <p>shop works!</p>
 
 <div class="shop-container">
-    <app-tower *ngFor="let tower of towerList" [name] = "tower.name">
-
-    </app-tower>
-
-    <!-- <div class="tower" *ngFor="let tower of towerList">
-        {{ tower.name }}
-    </div> -->
+    <app-tower *ngFor="let tower of towerList" [name] = "tower.name" [cost] = "tower.cost"></app-tower>
 </div>
